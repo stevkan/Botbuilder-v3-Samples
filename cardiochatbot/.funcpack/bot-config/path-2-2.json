@@ -1,0 +1,8 @@
+{
+     "Prompt": "Can you tell me which of these best matches the reason you believe there may be a denial?",
+     "Choices": [
+          "It costs too much because insurance isn’t paying for it",
+          "I didn’t realize it wasn’t covered until I paid",
+          "My doctor is prescribing me another medication because mine isn’t covered"
+     ]
+}

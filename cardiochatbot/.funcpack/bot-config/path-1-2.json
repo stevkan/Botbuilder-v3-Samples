@@ -1,0 +1,15 @@
+{
+     "Prompt": "Can you tell me which of these best matches the reason provided for the denial?",
+     "Choices": [
+          "Medication not on approved drug list or formulary",
+          "Approved prior-authorization not received",
+          "Medication requires me to use another medication first",
+          "Medication limit has already been met (dose or quantity)",
+          "Requires a different pharmacy or mail-order pharmacy",
+          "My doctor or pharmacist told me it wasn’t covered",
+          "It’s so expensive my insurance can’t be paying their portion",
+          "Prior authorization was rejected",
+          "My health plan will only cover the generic version of the drug I need",
+          "Other reason"
+     ]
+}

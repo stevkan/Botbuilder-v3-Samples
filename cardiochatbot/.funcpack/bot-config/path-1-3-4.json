@@ -1,0 +1,11 @@
+{
+     "1": "<name>, I appreciate the information you provided. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan has denied because there is missing information or incomplete documentation from your doctor.",
+     "2": "A prior authorization is required by your health plan for the service your doctor prescribed. This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need. In this case, your health plan hasn’t necessarily decided that the service your doctor wants you to have isn’t necessary, but they need more information from your doctor to make their decision.",
+     "3": "The best thing to do is to contact your doctor’s office and let them know what’s happening. It might even be something as simple as a letter missing from your member identification number, or an incorrect birthdate. The doctor’s office should be able to provide your health plan the missing information, or if not, schedule you for any further lab work or testing the plan requires.",
+     "4": "You do have the option to go ahead and have the service without an approved prior authorization, but you run the risk of your health plan not paying for the care.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

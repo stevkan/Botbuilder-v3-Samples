@@ -1,0 +1,10 @@
+{
+     "1": "<name> thanks for the information. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan has denied because it’s “not a covered benefit”",
+     "2": "Basically, a denial is a contract dispute. In your case, the insurance company has determined that the service you had doesn’t meet the criteria as a benefit they will pay for.",
+     "3": "You should have the right to appeal. Being timely is important so pay attention to the letter’s or EOB’s deadline for submission. The health plan must inform you of why your claim was denied, your right to an internal appeal, your right to an external appeal if the internal review denies your claim, and the availability of any assistance programs your state offers.",
+     "Prompt": "Would you like to hear more about appealing the denial?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

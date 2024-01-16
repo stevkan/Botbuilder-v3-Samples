@@ -1,0 +1,8 @@
+{
+     "Prompt": "Can you tell me which of these best matches the reason you believe there may be a denial?",
+     "Choices": [
+          "My doctor told me my insurance won’t cover it",
+          "My doctor or facility is asking for payment upfront",
+          "The cost estimate I was given is too high"
+     ]
+}

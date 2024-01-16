@@ -1,0 +1,13 @@
+{
+     "1": "<name>, I appreciate the information you provided. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan is not paying for because the doctor is out of network.",
+     "2": "A prior authorization is required by your health plan for the service your doctor prescribed. This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need.",
+     "3": "In this case, your health plan decided that they won’t pay for the service because the doctor who wants you to have it isn’t covered in your insurance network.",
+     "4": "This is typical if your insurance is a health maintenance organization (HMO) or an exclusive provider organization (EPO). Going out of an HMO or EPO network means you’re seeing a provider who hasn’t agreed to your insurance company’s terms of payment.",
+     "5": "If you do not have any out-of-network benefits, your health plan will deny your doctor’s request, making payment your responsibility, or require you to pay a bigger share of the cost if you have the service.",
+     "6": "However, you should have the right to appeal if denied, or if you feel your health plan should have paid more.",
+     "Prompt": "Do you want to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

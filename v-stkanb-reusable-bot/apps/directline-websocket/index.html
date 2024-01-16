@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Test</title>
+    <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+</head>
+<body>
+    <div> 
+        <div id="mybot"/>
+    </div>
+</body>
+</html>
+<script>
+    
+    var model = {
+        "userId": "1234",
+        "userName": "Steve",
+        "botId": "v-stkanb-reusable-bot",
+        "botIconUrl": "//bot-framework.azureedge.net/bot-icons-v1/bot-framework-default.png",
+        "botName": "directBot",
+        "secret": "XZZlMhrgFmI.cwA._Hs.2Hf3nIz-Er_DuW87N7Z1of_ijhQi8aJxeW_ZaL6bGB4",
+        "iconUrl": "//bot-framework.azureedge.net/bot-icons-v1/bot-framework-default.png",
+        "directLineUrl": "https://webchat.botframework.com/v3/directline",
+        "webSocketEnabled": 'true',
+        "speechTokenEndpoint": "https://api.botframework.com/v3/speechtoken"
+    };
+    
+    
+    // BotChat.App({
+    //     botConnection: botConnection,
+    //     resize: 'window',
+    //     locale: 'en'
+    // }, document.getElementById('mybot');
+
+    BotChat.App({
+        directLine: {
+			secret: model.secret,
+			webSocket: model.webSocketEnabled
+		},
+        //you can dynamically retrieve the logged in user info in your mvc View
+        //and pass thoes info to your bot
+        user: { id: model.userId, name: model.userName},
+        bot: { id: 'directBot' },
+        resize: 'window',
+        locale: 'en'
+    }, document.getElementById("mybot"));
+	
+</script>

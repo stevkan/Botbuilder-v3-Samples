@@ -1,0 +1,24 @@
+{
+  "name": "v-stkanb-reusable-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "botbuilder": "^3.14.1",
+    "botbuilder-azure": "^3.0.4",
+    "botbuilder-cognitiveservices": "^1.2.0",
+    "dotenv": "^8.0.0",
+    "fetch": "^1.1.0",
+    "request": "^2.88.0",
+    "restify": "^8.3.3",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}

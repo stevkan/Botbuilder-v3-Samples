@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for the helpful information <name>. I am sorry to hear that you are facing some challenges with your healthcare. If the cost estimate you were given by your doctor’s office or treating facility is unaffordable for you, you have options.",
+     "2": "You can reach out to the office or facility and request financial assistance or a payment plan. You can explain why the cost would be a hardship for you and ask if there is any assistance you can apply for that might help with the costs.",
+     "3": "If you think the high cost estimate was because insurance payment wasn’t applied, make sure the doctor or facility has your insurance information on file. If not, supply it. If they do have it on file, make sure that they have applied your health plan’s payments in the estimate. If they were not, ask about it. It may be a simple oversight, or it might mean that your health plan has not pre-approved the services.",
+     "4": "A prior authorization may be required by your health plan for the service your doctor prescribed. This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need.",
+     "5": "If the cost estimate is high because there is no approval has been submitted, feel free to inquire about when it will be sent to your health plan. Your insurer can also provide you details of what’s required if you call them.",
+     "Prompt": "Would you like me to continue?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

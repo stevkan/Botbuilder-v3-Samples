@@ -1,0 +1,11 @@
+{
+     "1": "Thanks for the helpful information! Most health plans have a list of approved medications, called a formulary, that are chosen by a committee made up of doctors and pharmacists. This committee reviews medications based on things like how effective the medications are and their safety. Health plans have the option to change their formularies at any time, even in the middle of a plan year.",
+     "2": "Often, in addition to the listing, certain drugs require your doctor submit authorization from your benefit plan before your plan will cover the medication. This is referred to as prior authorization, or pre-approval request.",
+     "3": "Approved prior authorization submitted beforehand is common for medications that have serious side effects, ones that are harmful when combined with other medications, or that are often misused. Or, if your doctor prescribes a medication when less expensive drugs might work the same, your health plan may require authorization for the more expensive medication.",
+     "4": "If no approval is on file, either you or your pharmacist will need to let your doctor know. Your doctor might switch you to another drug that doesn’t need this or the doctor can start the process for a prior authorization.",
+     "Prompt": "Was this information helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

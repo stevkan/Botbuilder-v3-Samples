@@ -1,0 +1,14 @@
+{
+     "1": "Thanks for the helpful information, <name>! I am sorry to hear that you are facing some challenges. There could be a lot of reasons that your insurance company isn’t contributing toward your medication. It could be that you haven’t met your plan’s annual medication deductible, meaning that right now you are paying 100% of the allowed rate.",
+     "2": "Another reason might be that you have received a denial for the medication because your health plan feels it does not match your plan benefits as submitted. That could be because the medication might not be on the list of covered medications called a formulary, because they require you to try other medications before paying for this one, or maybe because your pharmacy benefit only covers generic medications.",
+     "3": "You’ll need to call your health plan and get more information on the medication you need.",
+     "4": "Depending on what your plan’s reason is, your doctor may be able to prescribe another medication that would meet your health plan’s requirements and would be just as effective for you.",
+     "5": "If your doctor feels like you need to have the specific medication your health plan won’t cover, he or she may have the option to request a peer-to-peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "6": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the medication as well as give extra details about your case. Sometimes the denial can be overturned without having to go forward with the formal appeals process.",
+     "7": "If you want to go ahead and purchase the medication without your insurance paying, you do that have option. There may be lower costs available through a special program or a discount card. Ask your doctor or pharmacist about any medication assistance programs to help lower the cost if you choose to go this route.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

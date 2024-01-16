@@ -1,0 +1,10 @@
+{
+     "1": "<name> I appreciate the information regarding your situation. I hate to hear that you are facing such a challenge with your healthcare. I understand that you received a denial or non-payment from your health plan because they state you have reached or exceeded the maximum benefit limit.",
+     "2": "While the Affordable Care Act forbids health plans from putting annual or lifetime dollar limits on most benefits you receive, your health plan may still limit the quantity of services eligible for coverage per year. This means they have paid for the maximum number of visits, and they can leave you financially responsible for any visits you receive over that number. If you think this might not be correct, call your health plan so they can provide additional information.",
+     "3": "If you still need to receive services, you may want to talk to the billing department at your treating facility to see if they can work with you on a payment plan for the services you already received as well as future care.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

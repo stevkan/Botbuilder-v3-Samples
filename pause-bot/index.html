@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--
+  NOTE: This sample requires a bot which can send and receive specific event messages. Follow the instructions on
+  https://github.com/ryanvolum/backChannelBot to deploy such a bot.
+
+  This is a sample HTML file which shows how to embed an instance of Web Chat which listens for event activities. For the sake
+  of demonstration it specifically listens for events of name "changeBackground". Using the backChannelBot sample
+  our page can listen for events of name "changeBackground" and send events of name "buttonClicked". This
+  highlights the ability for a bot to communicate with a page that embeds the bot through Web Chat.
+
+  1. Build the project: "npm run build"
+  2. Start a web server: "npm run start"
+  3. Aim your browser at "http://localhost:8000/samples/backchannel?[parameters as listed below]"
+
+  For ease of testing, several parameters can be set in the query string:
+    * s = Direct Line secret, or
+    * t = Direct Line token (obtained by calling Direct Line's Generate Token)
+    * domain = optionally, the URL of an alternate Direct Line endpoint
+    * webSocket = set to 'true' to use WebSocket to receive messages (currently defaults to false)
+    * userid, username = id (and optionally name) of bot user
+    * botid, botname = id (and optionally name) of bot
+
+  You can run the sample against our MOCK_DL server:
+    1. "npm run start"
+    2. "npm run mock" in a new window
+    3. Browse to http://localhost:8000/samples/backchannel?domain=http://localhost:3000/mock&webSocket=false
+-->
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Bot Chat</title>
+
+    <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+
+    <style>
+        .example {
+            float: left;
+            margin-right: 20px;
+            width: 300px;
+        }
+
+        .example>h2 {
+            font-family: 'Segoe UI';
+        }
+
+        #BotChatGoesHere {
+            border: 1px solid #333;
+            float: left;
+            height: 600px;
+            position: relative;
+            width: 460px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="example">
+        <div>
+            <h2>Stop and Resume conversation buttons</h2>
+            <button onclick="postButtonStop(true)">Stop Conversation</button>
+            <button onclick="postButtonResume(false)">Resume Conversation</button>
+        </div>
+    </section>
+
+    <div id="BotChatGoesHere"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+
+    <script>
+        const params = BotChat.queryParams(location.search);
+
+        const user = {
+            id: params['userid'] || 'userid',
+            name: params['username'] || 'username'
+        };
+
+        const bot = {
+            id: 'reusable bot',
+            name: 'reusable bot'
+        };
+
+        window['botchatDebug'] = params['debug'] && params['debug'] === 'true';
+
+        // Direct Line should be configured on the dialog bot
+        const botConnection = new BotChat.DirectLine({
+            secret: '[Direct Line Secret]',
+        });
+
+        BotChat.App({
+            bot: bot,
+            botConnection: botConnection,
+            // locale: 'es-es', // override locale to Spanish
+            user: user
+        }, document.getElementById('BotChatGoesHere'));
+
+        botConnection.activity$
+            .filter(function (activity) {
+                return activity.type === 'message' && activity.name === 'conversationMsg';
+            })
+            .subscribe(function (activity) {
+                console.log('"conversationMsg" received with value: ' + activity.text);
+                conversationMsg(activity.text);
+            });
+
+        function stopConversation(newState) {
+            console.log('stopConversation: ' + newState);
+            $.when(botConnection.activity$.closed = newState)
+                .done(function () {
+                    botConnection.connectionStatus$.isStopped = newState;
+                });
+        };
+
+        function resumeConversation(newState) {
+            console.log('resumeConversation: ' + newState);
+            $.when(botConnection.connectionStatus$.isStopped = newState)
+                .done(function () {
+                    botConnection.activity$.closed = newState;
+                });
+        };
+
+        function conversationMsg(msg) {
+            console.log(msg);
+        };
+
+        function postButtonStop(btnValue) {
+            botConnection
+                .postActivity({
+                    from: { id: 'me' },
+                    name: 'conversationMsg',
+                    type: 'message',
+                    text: "Conversation paused"
+                })
+                .subscribe(function (id) {
+                    console.log('"conversationMsg" sent');
+                });
+            stopConversation(btnValue);
+        };
+
+        function postButtonResume(btnValue) {
+            resumeConversation(btnValue);
+            botConnection
+                .postActivity({
+                    from: { id: 'me' },
+                    name: 'conversationMsg',
+                    type: 'message',
+                    text: "Conversation resumed"
+                })
+                .subscribe(function (id) {
+                    console.log('"conversationMsg" sent');
+                });
+        }
+    </script>
+</body>
+
+</html>

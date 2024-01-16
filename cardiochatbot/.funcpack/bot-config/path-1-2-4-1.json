@@ -1,0 +1,9 @@
+{
+     "1": "Your doctor can provide documentation to your health plan about why it’s important for you to have the dosage or quantity prescribed. If there is proof that the medication is ineffective for you with normal dosage, or if there are studies that show a higher amount is safe, your health plan can make an exception for you to cover the drug.",
+     "2": "Also, you do have the option to go ahead and purchase the medication without your insurance paying. There may be assistance available through a special program or a discount card. Ask your doctor or pharmacist about any programs to help with the cost if you choose to go this route.",
+     "Prompt": "Was this information helpful for you <name>?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

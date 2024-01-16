@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+  <link href="./stylesheets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="bot"></div>
+  <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+  <script>
+    var token = '';
+    var domain = '';
+    var conversationId = '';
+
+    fetch("/api/config").then(function (response) {
+      return response.json();
+    }).then(function (data) {
+      token = data.token;
+      domain = data.domain;
+      conversationId = data.conversationId;
+      console.log(data);
+    })
+    .then(function (data) {
+      console.log("Token: " + token);
+      console.log("Domain: " + domain);
+      console.log("ConversationId: " + conversationId);
+      BotChat.App({
+        directLine: {
+          secret: "ksVw5jQo-Jk.cwA.obM.wiPUdJXfwggPjK7X7Sc7wuiIxcCvPc1uX-a_QuGoc_0",
+          domain: "https://directline.botframework.com/v3/directline"
+          // conversationId: conversationId
+          // watermark: null
+        },
+        user: { id: 'Connection Bot' }
+        //bot: { id: 'botid' }
+      }, document.getElementById("bot"));
+    });
+  </script>
+</body>
+
+</html>

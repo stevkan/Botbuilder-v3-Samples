@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" /> -->
+  <link href="./stylesheets/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <iframe id="bot" src='https://webchat.botframework.com/embed/v-stkanb-oauth-card?s=FKETTMTIVUo.cwA.0fI.O95X5Q-W6PJXzLQUffsiiv3bFv8jM_Nmf7NfWt20oDE'></iframe>
+  <!-- <script src="https://cdn.botframework.com/botframework-webchat/latest/botchat.js"></script>
+  <script>
+    var token = '';
+    var domain = '';
+
+    fetch("/api/config").then(function (response) {
+      return response.json();
+    }).then(function (data) {
+      token = data.token;
+      domain = data.domain;
+      console.log(data);
+    }).catch(function () {
+      console.log("Booo");
+    }).then(function () {
+      console.log("Token: " + token);
+      console.log("Domain: " + domain);
+
+      const botConnection = new BotChat.DirectLine({
+        token: token,
+        domain: domain
+      });
+
+      BotChat.App({
+        directLine: {
+          secret: token,
+          domain: domain
+        },
+        user: { id: 'ogkjrengtr' }
+        //bot: { id: 'botid' }
+      }, document.getElementById("bot"));
+
+      botConnection
+        .postActivity({
+          from: { id: 'me' },
+          name: 'token/response',
+          // text: 'I said my location is ' + JSON.stringify(apiLocation.latitude),
+          type: 'event',
+          value: token
+        })
+        .subscribe(function (id) {
+          console.log('"tokens/response" sent ' + token);
+        });
+    });
+
+  </script> -->
+</body>
+
+</html>

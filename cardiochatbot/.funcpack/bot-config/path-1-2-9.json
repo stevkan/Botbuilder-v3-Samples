@@ -1,0 +1,11 @@
+{
+     "1": "Thanks for the helpful information! Most health plans have a list of covered medications called a formulary, that are chosen by a committee made up of doctors and pharmacists. This committee reviews medications based on things like how effective the medications are and their safety. Health plans have the option to change the formulary at any time, even in the middle of a plan year.",
+     "2": "Since your doctor has prescribed a brand name medication and your health plan will not cover it, give the office a call to update them. Doctors often are not familiar with the specifics of patient’s formularies. There is a chance that the generic version will work just as well for you and the doctor may feel comfortable with you taking it.",
+     "3": "If your doctor feels you require the brand name, you have a couple of options. You may choose to pay outright for the medication. You would be paying full retail price for the medication, but ask the pharmacist or your doctor about help available through a discount card or medication assistance program if you choose to go this route.",
+     "4": "Or, you and your doctor can ask the health plan to make a special allowance for you to have the medication your doctor wants you to have, called a formulary exception.",
+     "Prompt": "<name> would you like more information on filing for a formulary exception?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

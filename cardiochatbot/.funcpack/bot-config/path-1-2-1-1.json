@@ -1,0 +1,11 @@
+{
+     "1": "Before you begin, call your health plan to see if there are any special forms that must be sent with the request. If your doctor feels your life or health is at risk by waiting for a standard request (typically 30 days), the plan must give your case an urgent review (typically 72 hours).",
+     "2": "When you submit the formulary exception request to your health plan, they will need to know why other medication on the plan’s formulary will not work for you, a list of any alternative medications you have tried for this issue and why those did not work for you including any negative side effects. Also, if you are already taking the requested medication, make sure you let them know how well it is working for you.",
+     "3": "Your health plan is likely to grant your request for exception if their lack of coverage would mean you are forced to use a medication that won’t work well for you, or will cause you to have a harmful medical event or issue.",
+     "4": "If your request for an exception is turned down by the health plan, you have the right to appeal the health plan’s decision. Health plans are required by law to have a formal appeals process.",
+     "Prompt": "Is this helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

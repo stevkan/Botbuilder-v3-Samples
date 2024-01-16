@@ -1,0 +1,12 @@
+{
+     "1": "Thanks so much for sharing <name>. I hate to hear that you are facing such a challenge with your healthcare. I understand that your doctor performed a service or treatment for you that your health plan is not paying for because they feel it was experimental or investigational.",
+     "2": "As frustrating as it might seem, your situation is not uncommon. There are many reasons this could happen. If the service you had used a new technique, your health plan may deny it. Or, if there are other procedures that are similar and cheaper, the health plan may decide you could have had the less costly service.",
+     "3": "Basically, a denial is a contract dispute. In your case your health plan felt you didn’t need the service you had because it might not be FDA approved for your condition, or there may be lacking medical or scientific evidence to evaluate the effectiveness of it.",
+     "4": "However, just because a service is considered to be experimental or investigational, does not mean that it is not safe or effective in your situation.",
+     "5": "Make sure to review your EOB or denial letter carefully as it outlines your next steps for appealing the decision.",
+     "Prompt": "Do you want to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

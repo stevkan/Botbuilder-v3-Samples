@@ -1,0 +1,13 @@
+{
+     "1": "Thanks for the helpful information <name>! I am sorry to hear that you are facing some challenges. There could be a lot of reasons that your insurance company isn’t paying towards your medication. There’s a chance you haven’t met your plan’s annual medication deductible, meaning that right now you are paying 100% of the allowed rate.",
+     "2": "Some plans provide drug coverage before you meet your deductible and some only offer it after you have met it. Some plans have a separate deductible altogether for medications and some combine it with your medical care.",
+     "3": "Another reason the cost is high might be because your health plan has denied it. Three common denial reasons are because the medication might not be on the list of covered medications called a formulary, because insurance requires you to try other medications before paying for this one, or because your plan only covers generic medications.",
+     "4": "Start by calling your health plan and get more information on this medication.",
+     "5": "Depending on the situation, your doctor may be able to prescribe another cheaper medication that would meet your health plan’s requirements and would be just as effective for you.",
+     "6": "If you want to go ahead and purchase the medication without your insurance covering their portion, you do that have option, and there may actually be some assistance available through a copay card. Ask your doctor or pharmacist about any medication assistance programs to help with the cost if you choose to go this route.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

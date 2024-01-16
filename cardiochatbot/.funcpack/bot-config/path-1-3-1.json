@@ -1,0 +1,11 @@
+{
+     "1": "<name>, I appreciate the information you provided. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan is not paying for because they feel it is not medically necessary.",
+     "2": "A prior authorization is required by your health plan for the service your doctor prescribed. This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need. In this case, your health plan decided that you don’t need the service your doctor wants you to have.",
+     "3": "There could be several reasons for this. If the service uses a new technique, your health plan may deny it. Or, if there are other procedures that are similar and cheaper, the health plan may decide you can go with the less costly service.",
+     "4": "You can go ahead and have the service, but you run the risk of your health plan not paying for the care. Also, you should have the right to appeal the denial.",
+     "Prompt": "Do you want to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

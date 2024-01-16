@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for the helpful information! Most health plans have a list of covered medications called a formulary, that are chosen by a committee made up of doctors and pharmacists. This committee reviews medications based on things like how effective the medications are and their safety. Health plans have the option to change the formulary at any time, even in the middle of a plan year.",
+     "2": "Sometimes the medication your doctor has prescribed for you is not on your formulary, but that does not mean the medication is not safe or effective.",
+     "3": "You can always ask your doctor about switching medications. There may be a generic version of the drug that is on your formulary, or your doctor may want to try a different medication altogether.",
+     "4": "You also may choose to pay outright for the medication. You would be paying full retail price for the medication, but ask about help available through a special program, a discount card, or medication assistance programs to help with the cost if you choose to go this route.",
+     "5": "Lastly, if the above are not options, you and your doctor can ask the health plan to make a special allowance for you to have the medication your doctor wants you to have, called a formulary exception.",
+     "Prompt": "Would you like more information on filing for a formulary exception?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

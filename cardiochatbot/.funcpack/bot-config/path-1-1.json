@@ -1,0 +1,13 @@
+{
+     "Prompt": "Can you tell me which of these best matches the reason provided for the denial?",
+     "Choices": [
+          "Not Medically Necessary",
+          "Experimental Treatment",
+          "Needed pre-authorization or pre-approval",
+          "Not a covered benefit",
+          "Missing information or insufficient documentation",
+          "The doctor is not in network with my health plan",
+          "Maximum limit reached",
+          "Policy deductible not met"
+     ]
+}

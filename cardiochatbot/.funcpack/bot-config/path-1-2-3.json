@@ -1,0 +1,12 @@
+{
+     "1": "Thanks so much for that <name>! I’m sorry to hear that you are facing some healthcare challenges. Most health plans have a list of approved medications, called a formulary, that are chosen by a committee made up of doctors and pharmacists. This committee reviews medications based on things like how effective the medications are and their safety.",
+     "2": "It sounds like for your medication, your plan’s drug list requires you to have tried other similar medications that are medically equivalent before they will pay for this one. The good news is that your doctor can help with the next steps.",
+     "3": "Either your doctor or you can call your plan and get a list of the medications they want you to try first. If you haven’t tried these and your doctor things they may work for you, the prescription can always be adjusted and sent to the pharmacy. These drugs will almost always be cheaper too!",
+     "4": "If you have already tried the medications on the list and they have not worked, you should ask your doctor to send documentation of this to your health plan, and formally ask that they reconsider with new information.",
+     "5": "If your doctor believes this drug is best for you, and feels there is a medical reason to skip the others, your doctor will need to explain detailed reasons based on your medical records, along with any research that supports the case as part of an appeal.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

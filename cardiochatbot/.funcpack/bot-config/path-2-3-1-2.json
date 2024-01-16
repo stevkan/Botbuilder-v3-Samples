@@ -1,0 +1,7 @@
+{
+     "Prompt": "Is this information helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

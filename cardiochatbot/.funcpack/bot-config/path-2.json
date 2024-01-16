@@ -1,0 +1,9 @@
+{
+     "1": "Sometimes when you see that insurance isn’t paying any of the costs, it seems like a denial, but there might be other things going on. It’s worth it to investigate these items before we rush to an appeal that may not be needed.",
+     "Prompt": "Which of these best matches the situation you have?",
+     "Choices": [
+          "No payment towards a service I already received",
+          "No coverage for medication I need",
+          "Denial of request for care my doctor wants me to have"
+     ]
+}

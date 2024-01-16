@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for sharing <name>. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan is not paying for because they do not have a pre-authorization or pre-approval on file for the service you received.",
+     "2": "This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need.",
+     "3": "As frustrating as it might seem, your situation is not uncommon. There are many reasons this could happen.",
+     "4": "The first step in this situation is to contact your health plan to see if they allow your doctor to request a retroactive prior authorization. If your health plan allows it, your doctor’s office would submit a request for the services as if you had not already had them.",
+     "5": "Some health plans do not permit doctors to file retroactive authorizations. If that is the case, you should have the option to proceed with the appeals process.",
+     "Prompt": "Would you like to find out more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

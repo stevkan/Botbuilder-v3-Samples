@@ -1,0 +1,12 @@
+{
+     "1": "Thanks so much for sharing <name>. I hate to hear that you are facing such a challenge with your healthcare. I understand that your doctor performed a service or treatment for you that your health plan is not paying for because they feel it was not medically necessary.",
+     "2": "As frustrating as it might seem, your situation is not uncommon. There are many reasons this could happen. If the service you had used a new technique, your health plan may deny it. Or, if there are other procedures that are similar and cheaper, the health plan may decide you could have had the less costly service.",
+     "3": "Review your EOB or denial letter carefully as it outlines your next steps for appealing the decision. You may be entitled to a peer to peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "4": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the services as well as give extra details about your case. Sometimes the denial can be overturned at this stage.",
+     "5": "If a peer to peer review is not available, or if it is denied, you have the option of moving forward with the formal appeals process.",
+     "Prompt": "Do you want to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

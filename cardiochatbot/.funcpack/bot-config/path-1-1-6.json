@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for sharing <name>. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has performed a service or treatment for you that your health plan is not paying for because the doctor is out of network.",
+     "2": "This is typical if your insurance is a health maintenance organization (HMO) or an exclusive provider organization (EPO). Going out of an HMO or EPO network means you’re seeing a provider who hasn’t agreed to your insurance company’s terms of payment.",
+     "3": "If you do not have any out-of-network benefits, your health plan will most likely deny your doctor’s charges, making payment your responsibility, or require you to pay a bigger share of the cost if you have the service.",
+     "4": "If you received the out-of-network services due to an emergency, you should call your health plan and ask that the charges be re-processed. At this time, you can provide details about the situation and why you were forced to go out-of-network.",
+     "5": "If the charges remain unpaid after reprocessing, or if the services were not due to an emergency, you should have the right to move forward with the appeals process.",
+     "Prompt": "Do you want to hear more about appealing the denial?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

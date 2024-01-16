@@ -1,0 +1,23 @@
+{
+  "name": "302-redirect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.15.0",
+    "botbuilder-azure": "^3.1.0",
+    "botbuilder-cognitiveservices": "^1.2.0",
+    "dotenv-extended": "^2.4.0",
+    "restify": "^5.2.1"
+  },
+  "devDependencies": {
+    "request": "^2.88.0",
+    "zip-folder": "^1.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "noImplicitAny": false,
+        "types": ["node"]
+    },
+    "files": [
+        "index.ts"
+    ]
+}

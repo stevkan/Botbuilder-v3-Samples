@@ -1,0 +1,12 @@
+{
+     "1": "<name> I appreciate the information regarding your situation. I’m sorry to hear that you are facing such a challenge with your healthcare. I understand that you received a denial or non-payment from your health plan because you have not yet reached your annual deductible.",
+     "2": "So, while this may seem like a denial because your health plan is not paying on services you received, it is not actually a denial.",
+     "3": "A deductible is the amount of money you pay for health care services before your plan kicks in and starts paying. For most services, you'll pay full cost until you reach the deductible.",
+     "4": "After you reach your deductible, you’ll still have to pay any copays or coinsurance, until you reach your out of pocket maximum. The out of pocket maximum is the most you will have to pay for health services in a plan year. When you reach that maximum, your plan will pay 100% of the cost of covered services.",
+     "5": "If you are having a hard time paying for the charges you have incurred, it might be a good idea to reach out the facility or office that is billing you and ask if there is any financial assistance on the bill. You may also be able to set up a payment plan.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

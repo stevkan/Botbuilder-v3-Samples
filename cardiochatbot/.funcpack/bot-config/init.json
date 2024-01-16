@@ -1,0 +1,9 @@
+{
+     "1": "It’s nice to chat with you today <name>",
+     "2": "I’m new to this job and am still in training, but I’ve worked with many experienced case managers recently and am confident that I can provide some specific steps for the care you need and connect you with resources to use.",
+     "Prompt": "I understand you have had a denial from your insurance company. Have you received a denial letter, an explanation of benefits (EOB), or spoken to your provider or insurance verbally about the denial?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

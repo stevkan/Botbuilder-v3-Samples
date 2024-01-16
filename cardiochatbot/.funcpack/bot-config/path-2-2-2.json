@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for the helpful information, <name>! I am sorry to hear that you are facing some challenges. Your situation is a difficult one because you have already purchased the medication. By doing so, that means you are agreeing that what you paid is what you owed. In the future, if you don’t feel the amount the pharmacy is charging you is correct, ask the pharmacist to re-run the prescription through your insurance. They may be able to offer an explanation of why the price is what it is.",
+     "2": "There could be a lot of reasons that your insurance company isn’t paying towards your medication. It could be that you haven’t met your plan’s annual medication deductible, meaning that right now you are paying 100% of the allowed rate.",
+     "3": "Another reason might be that you have received a denial for the medication. That could be because the medication might not be on the list of covered medications called a formulary, because they require you to try other medications before paying for this one, or maybe because your plan only covers generic medications.",
+     "4": "It might be a good idea to call your health plan and get more information on why the medication wasn’t covered.",
+     "5": "If the medication has been denied, and you strongly feel your health plan should pay for the medication, you can file an appeal to try and get coverage.",
+     "Prompt": "Would you like to hear about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

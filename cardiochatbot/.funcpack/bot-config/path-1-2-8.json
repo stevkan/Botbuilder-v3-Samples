@@ -1,0 +1,10 @@
+{
+     "1": "Thanks for the helpful information! Often, high cost meds or newly released ones have restrictions that require your doctor get authorization before your plan will cover the medication. This is referred to as prior authorization, or pre-approval.",
+     "2": "The particular medication you are taking could require a prior authorization for many reasons. Brand new medications, ones that have serious side effects, are harmful when combined with other medications, are high cost, or are often misused or abused often require authorization. Or, if your doctor prescribes a medication when less expensive drugs might work better, your health plan may require authorization for the more expensive medication.",
+     "3": "<name> even though this authorization was denied, you do have some options.",
+     "Prompt": "Would you like to hear about them?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

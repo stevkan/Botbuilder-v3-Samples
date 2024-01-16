@@ -1,0 +1,11 @@
+{
+     "1": "<name> I appreciate the information regarding your situation. I’m sorry to hear that you are facing such a challenge with your healthcare. If you only have a bill from the doctor and no matching EOB, your provider may not have submitted the service to your insurance company. If your insurance doesn’t know you had the procedure, it will not be able to help pay for it.",
+     "2": "To fix this, the first step is to call the provider who you saw. You’ll want to allow them to what you’ve noticed and make sure that they have all the necessary information about your insurance to submit in the format the insurer requires. Once they have this info, request they resubmit the claim.",
+     "3": "If you visited an out of network provider, they may not have the system to submit to your insurer, so you should call your insurance and ask how you can submit the claim yourself.",
+     "4": "In both instances, you’ll want to inform the office that you received the bill but ask for the due date to be adjusted to allow you time to fix the issue. Do not make payment on the bill until you know for sure that you owe that amount.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

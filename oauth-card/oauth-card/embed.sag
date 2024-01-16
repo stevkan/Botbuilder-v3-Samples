@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+  NOTE: This sample requires a bot which can send and receive specific event messages. Follow the instructions on
+  https://github.com/ryanvolum/backChannelBot to deploy such a bot.
+
+  This is a sample HTML file which shows how to embed an instance of Web Chat which listens for event activities. For the sake
+  of demonstration it specifically listens for events of name "changeBackground". Using the backChannelBot sample
+  our page can listen for events of name "changeBackground" and send events of name "buttonClicked". This
+  highlights the ability for a bot to communicate with a page that embeds the bot through Web Chat.
+
+  1. Build the project: "npm run build"
+  2. Start a web server: "npm run start"
+  3. Aim your browser at "http://localhost:8000/samples/backchannel?[parameters as listed below]"
+
+  For ease of testing, several parameters can be set in the query string:
+    * s = Direct Line secret, or
+    * t = Direct Line token (obtained by calling Direct Line's Generate Token)
+    * domain = optionally, the URL of an alternate Direct Line endpoint
+    * webSocket = set to 'true' to use WebSocket to receive messages (currently defaults to false)
+    * userid, username = id (and optionally name) of bot user
+    * botid, botname = id (and optionally name) of bot
+
+  You can run the sample against our MOCK_DL server:
+    1. "npm run start"
+    2. "npm run mock" in a new window
+    3. Browse to http://localhost:8000/samples/backchannel?domain=http://localhost:3000/mock&webSocket=false
+-->
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Bot Chat</title>
+
+  <link href="https://cdn.botframework.com/botframework-webchat/latest/botchat.css" rel="stylesheet" />
+
+  <style>
+    html,
+    body {
+      height: 100%
+    }
+
+    body {
+      margin: 0
+    }
+
+    .example {
+      float: left;
+      margin-right: 20px;
+      width: 300px;
+    }
+
+    .example>h2 {
+      font-family: 'Segoe UI';
+    }
+
+    #botA,
+    #botA>* {
+      border: 1px solid #333;
+      float: left;
+      height: 600px;
+      position: relative;
+      width: 460px;
+    }
+
+    #botB,
+    #botB>* {
+      border: 1px solid #333;
+      float: left;
+      height: 600px;
+      position: relative;
+      width: 460px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="example">
+    <table>
+      <tr>
+        <td>
+          Bot A
+        </td>
+      </tr>
+      <tr>
+
+      <tr>
+        <td>
+          <div id="botA"></div>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+
+  <script>
+    (async function () {
+      // In this demo, we are using Direct Line token from MockBot.
+      // To talk to your bot, you should use the token exchanged using your Direct Line secret.
+      // You should never put the Direct Line secret in the browser or client app.
+      // https://docs.microsoft.com/en-us/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-authentication
+
+      const res = await fetch('https://v-stkanb-directline.azurewebsites.net/directline/token', { method: 'POST' });
+      const { token } = await res.json();
+      console.log(token);
+
+      window.WebChat.renderWebChat({
+        directLine: window.WebChat.createDirectLine({ token })
+      }, document.getElementById('botA'));
+
+      document.querySelector('#botA > *').focus();
+    })().catch(err => console.error(err));
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "luisbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "botbuilder": "^3.13.1",
+    "botbuilder-ai": "^4.0.0-m2.4",
+    "botbuilder-azure": "^3.0.4",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "requirejs": "^2.3.5",
+    "restify": "^5.0.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
+  },
+  "scripts": {
+    "node app.js": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

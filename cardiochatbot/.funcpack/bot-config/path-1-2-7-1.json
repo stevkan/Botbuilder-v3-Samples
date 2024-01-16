@@ -1,0 +1,13 @@
+{
+     "1": "Even if you are confident you have met your deductible, it might be a good idea to double check. Some plans provide drug coverage before you meet your deductible, some only offer it after you have met it, and some have a separate deductible altogether for medications. These deductibles are separate (and generally a lot lower) than your overall deductible for other medical care. Once you’ve paid out your prescription deductible your drugs may be covered with a copayment or at no cost.",
+     "2": "If you truly have met your deductible, there is a chance your medication could be on a high tier. The listing of medications your health plan covers is called a formulary. The medications on that formulary are broken into tiers that connect to how much you must pay for each. Higher tiers are more expensive than lower. But, you or your doctor can request a tier exception from your health plan. This would mean you could obtain a high tier drug at the lower cost applicable to drugs in a lower tier.",
+     "3": "Yet, there could still be other issues impacting this medication. The cost may be high because your health plan has denied it. Your plan may require you to try other medications before paying for this one, or maybe because your plan only covers generic medications, or it may not be on the formulary at all.",
+     "4": "It might be a good idea to call your health plan and get more information on why the medication wasn’t covered.",
+     "5": "Depending on the situation, your doctor may be able to prescribe another cheaper medication that would meet your health plan’s requirements and would be just as effective for you.",
+     "6": "If you want to go ahead and purchase the medication without your insurance paying, you do that have option, and there may actually be some assistance available through a copay card. Ask your doctor or pharmacist about any medication assistance programs to help with the cost if you choose to go this route.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

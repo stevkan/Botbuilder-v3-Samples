@@ -1,0 +1,8 @@
+{
+     "1": "You do also have the option to pay for the original medication your doctor prescribed out of pocket. There may be assistance available through a special program or discount card. Ask your doctor or pharmacist about any medication assistance programs to help lower the cost if you choose to go this route.",
+     "Prompt": "Was the information I provided to you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

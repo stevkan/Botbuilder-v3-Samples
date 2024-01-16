@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for the helpful information <name>! I am sorry to hear that you are facing some challenges with your healthcare. While it might be upsetting, your doctor or treating facility has the right to ask for payment before you receive services. This may or may not be related to a denial.",
+     "2": "If you have not met your deductible (the amount of money you pay out-of-pocket before their insurance pays anything) for the year, or if you have a high deductible health plan, your doctor’s office can ask you to pay for charges before you receive them. This is the case as well with co-pays or co-insurance.",
+     "3": "If you aren’t able to pay your doctor upfront for the charges, you can ask the office if they would be willing to negotiate with you. They may allow you to pay a smaller portion upfront and then be billed for the remainder.",
+     "4": "If the reason your doctor is asking you for upfront payment is because your health plan has denied the services, you may be entitled to a peer to peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "5": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the services as well as give extra details about your case. Often the decision can be reversed at this stage.",
+     "Prompt": "Would you like to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

@@ -1,0 +1,15 @@
+{
+     "1": "Thanks for the information! What is most likely happening is that your health plan has negotiated the best rate for its members, but in order to give you that rate you must use a specific pharmacy. This is common for some complex medications or ones that work well for mail order, like meds your plan considers “maintenance”",
+     "2": "A lot of health plans are now requiring patients on maintenance medications (prescribed for chronic, long-term conditions that are taken on a regular basis) to switch to mail order. If this is the case for you, you will need to keep up with different pharmacy providers and verify that all or your medication and insurance information is accurate with both.",
+     "3": "In addition to cost savings, some meds are not often stocked at your local pharmacy, or require additional preparation and handling to dispense. These frequently focus on the long-term, complex treatment of chronically ill patients and need to be filled at places called specialty pharmacies.",
+     "4": "If your prescription has been sent out, the new place will contact you to arrange delivery and verify your insurance information. Be sure to watch out for any toll-free phone numbers and check your voice messages frequently in case the pharmacy has been trying to reach you.",
+     "5": "However, since you will likely still use your normal pharmacy for your other medications, be sure to let each know about all of the medications you’re taking and update both about any changes, so your pharmacist can alert you to any possible drug interactions.",
+     "6": "If your plan is requiring you switch to a mail-order pharmacy but there is a legitimate reason this will not work for you, be sure to contact your health plan and inquire about an exception process.",
+     "7": "You may have a concern regarding receiving your maintenance medications on time. You can pay extra to have overnight shipping, or your plan may allow you to go into a retail pharmacy and get a short 3 day supply to hold you over until your medication arrives.",
+     "8": "If you weren’t notified that your medication was supposed to be mail order, your retail pharmacy may still be able to fill it. Lots of plans allow one fill to be done in the retail pharmacy before switching to mail order.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

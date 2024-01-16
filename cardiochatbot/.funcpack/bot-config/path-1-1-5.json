@@ -1,0 +1,12 @@
+{
+     "1": "<name> I appreciate the information regarding your situation. I hate to hear that you are facing such a challenge with your healthcare. I understand that your doctor performed a service or treatment for you that your health plan is not paying for because they are requiring additional documentation about the services.",
+     "2": "As frustrating as it might seem, your situation is not uncommon. There are many reasons this could happen. If the service you had used a new technique, your health plan may request additional documentation. Or, if there are other procedures that are similar and cheaper, the health plan may decide you could have had the less costly service.",
+     "3": "In this case, your health plan hasn’t necessarily decided that the service your doctor performed wasn’t necessary, but they need more information from your doctor to make their decision.",
+     "4": "The best thing to do is to contact your doctor’s office and let them know what’s happening. It might even be something as simple as a letter missing from your member identification number, or an incorrect birthdate to correct the issue. The doctor’s office should be able to provide your health plan the missing information they are asking for.",
+     "5": "If after the missing information is provided, the services are still denied, then you may have the right to move forward with the appeals process.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

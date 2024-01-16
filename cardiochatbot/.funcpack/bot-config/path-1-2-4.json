@@ -1,0 +1,12 @@
+{
+     "1": "Thanks for the helpful information! Most health plans have a list of covered medications called a formulary, that are chosen by a committee made up of doctors and pharmacists. This committee reviews medications based on things like how effective the medications are and their safety. Health plans have the option to change the formulary at any time, even in the middle of a plan year.",
+     "2": "Often, restrictions are also placed on certain drugs. The particular medication you are taking appears to have a limit restriction. It’s common for medications with serious side effects, that are harmful when combined with other medications, or are often misused or abused to have restrictions.",
+     "3": "When a covered medication has a quantity limit, the plan will cover only a set amount within a set period of time, for example 30 tablets in 30 days. If you attempt to fill the prescription before the 30 days is up, or if your doctor prescribes an amount that is higher than the limit, it may not be covered by the plan.",
+     "4": "The same is true with a dose limit. This limitation is put into place to restrict medications to the specific number of doses based on FDA warnings and common prescribing practices. If your doctor writes you a prescription that exceeds the normal dose, your health plan will most likely not cover the medications.",
+     "5": "But, you do have options if you are facing a dose or quantity limit. You can ask your doctor to help you file for a medical exception to your health plan to try and get coverage for the medication.",
+     "Prompt": "Would you like to hear more about the medical exception process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

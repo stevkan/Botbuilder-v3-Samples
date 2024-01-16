@@ -1,0 +1,10 @@
+{
+     "1": "Thanks for the helpful information <name>! I am sorry to hear that you are facing some challenges. Your doctor has given you an alternate medication that is covered. However, if there are reasons why your doctor feels it will not work for you moving forward you should consider an appeal.",
+     "2": "There could be several reasons your insurance company isn’t covering your medication. You may have received a denial for the medication because it is not on your plan’s list of covered medications called a formulary, it may not be covered because your health plan requires you to try other medications before paying for this one, or because your plan only covers generic medications, or another reason.",
+     "3": "Start by calling your health plan to confirm and get more information on why the original medication is not covered. This will help you determine what you need to do to move forward and if an appeal is necessary.",
+     "Prompt": "Would you like to find out more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

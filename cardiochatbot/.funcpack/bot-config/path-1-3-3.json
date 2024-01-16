@@ -1,0 +1,12 @@
+{
+     "1": "<name>, thanks for the information. I’m sorry to hear that you are facing this challenge with your healthcare. I understand that your doctor has prescribed a service or treatment for you that your health plan has denied because it’s not a covered benefit.",
+     "2": "You should have the right to appeal. Being timely is important so pay attention to the letter’s deadline for submission.",
+     "3": "Basically, a denial is a contract dispute. In your case, the insurance company has determined that the service your doctor is requesting for you is non-covered. This means if you go ahead and have the service, your health plan may not cover the charges. Review your denial letter carefully as it outlines your next steps for appealing the decision. You may be entitled to a peer to peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "4": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the services as well as give extra details about your case. Sometimes the denial can be overturned without having to go forward with the formal appeals process.",
+     "5": "If a peer to peer review is not available, or if it is denied, you have the option of moving forward with the formal appeals process.",
+     "Prompt": "Would you like to hear more about appealing the denial?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

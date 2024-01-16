@@ -1,0 +1,10 @@
+{
+     "1": "If your health plan approves the prior authorization, the cost you owe to the doctor or the facility should change. If your health plan denies the requested services, you may be entitled to a peer to peer review of your case.",
+     "2": "This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "3": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the services as well as give extra details about your case. Often things can be reversed at this stage.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

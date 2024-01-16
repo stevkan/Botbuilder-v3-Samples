@@ -1,0 +1,12 @@
+{
+     "1": "Sometimes it’s as simple as an error in the paperwork that is keeping you from getting your medication. If so, your doctor’s office should be able to help with that. As well, they may be able to provide additional medical documentation to the plan to support the case for you having this prescription is that is required.",
+     "2": "Depending on the situation, your doctor may be able to prescribe another medication that would meet your health plan’s requirements and would be just as effective for you.",
+     "3": "If your doctor feels like you need to have the specific medication your health plan won’t cover, he or she may have the option to request a peer-to-peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "4": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the medication as well as give extra details about your case. Sometimes the denial can be overturned without having to go forward with the formal appeals process. It is possible to appeal the prior authorization denial. Make sure you are paying attention to dates and submission requirements.",
+     "5": "Appeals can take time, so if you want to go ahead and purchase the medication without your insurance paying, you do that have option. There may be assistance available through a special program or a discount card. Ask your doctor or pharmacist about any medication assistance programs to help with the cost if you choose to go this route.",
+     "Prompt": "Was this information helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

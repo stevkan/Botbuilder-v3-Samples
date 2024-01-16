@@ -1,0 +1,8 @@
+{
+     "1": "Thanks for the helpful information! I’m sorry to hear you are facing this issue with your healthcare. There could be a lot of reasons that your medication costs are higher than expected.",
+     "Prompt": "Have you met your health plan’s deductible?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

@@ -1,0 +1,13 @@
+{
+     "1": "Thanks for the helpful information <name>! I am sorry to hear that you are facing some challenges with your healthcare.",
+     "2": "So, there is a chance your doctor performs this type of service regularly and he or she is speaking generally because health plans often deny it. Or, your doctor’s office may have received a denial from your health plan for prior authorization for the service or treatment your doctor would like you to have.",
+     "3": "This approval is a process where your doctor and your health plan agree that the prescribed service or medication is one you need. If the prior authorization is denied, you may be entitled to a peer to peer review of your case. This review is a meeting, most often a phone conversation, between a doctor at your insurance company and your treating doctor.",
+     "4": "Getting the two doctors on the phone is a good thing because your doctor can better explain the reasoning for ordering the services as well as give extra details about your case. Sometimes the denial can be overturned at this stage.",
+     "5": "If a peer to peer review is not available, or if it is denied, you have the option of moving forward with the formal appeals process.",
+     "6": "If your doctor is adamant that the service is necessary, ask the office if they will work with you financially. The office can still file a claim with your health plan after you have the service and if denied, you can move forward and file an appeal.",
+     "Prompt": "Would you like to hear more about the appeals process?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "oath-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.16.0",
+    "restify": "^7.7.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+     "1": "If you’re not sure where you stand on your deductible, make that your starting point. Call your insurance company to ask. If you haven’t yet met your deductible, your insurance doesn’t pay yet even if the drug is “covered.”",
+     "2": "Some plans provide drug coverage before you meet your deductible, some only offer it after you have met it, and some have a separate deductible altogether for medications. These deductibles are separate (and generally a lot lower) than your overall deductible for other medical care. Once you’ve paid out your prescription deductible your drugs may be covered with a copayment or at no cost.",
+     "3": "If you haven’t met your deductible and it appears that you aren’t getting any help from insurance, that is not necessarily the case. Medications have a retail price that you would pay if you did not have health insurance. Because you do, you benefit from a negotiated rate that your health plan has agreed upon with the manufacturer of the drug that’s lower than the retail price. So, you are getting a discount on the cost of the medication just by having health insurance.",
+     "4": "There may be some assistance available to help with the cost of the medications through a copay card. Ask your doctor or pharmacist about any medication assistance programs to help lower costs if you choose to go this route.",
+     "5": "Make sure when you are purchasing insurance coverage, you are checking about the plan’s coverage of medications. You may want to look into other options if your current plan isn’t working for you during your open enrollment.",
+     "Prompt": "Was the information I provided you useful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}

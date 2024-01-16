@@ -1,0 +1,12 @@
+{
+     "1": "The first step is to get all your paperwork together. You should request a letter of support from the doctor explaining the medical reasons the requested service should be approved as well as any medical records, evidence of any previously tried and failed treatments, results of any relevant tests or procedures, or current research articles.",
+     "2": "As you write your appeal letter, make sure you are being complete and using facts to make your argument. Your main point needs to address the denial reason given by the health plan, and you should provide evidence that shows your insurance company they should cover the treatment or service.",
+     "3": "Try not to get too emotional or frustrated in the letter because that could take away from the points you are making.",
+     "4": "Send the letter by certified mail with a request for return receipt. Keep records of any tracking numbers and mark your calendar for when you should hear back with a decision. Your health plan should send a notice after your appeal packet has been received within 7-10 days. If you don’t get one, give your insurance company a call to check on it.",
+     "5": "Finally, remain organized. If you haven’t already, keep copies of everything you submitted and notes from all your calls with dates, times, and who you spoke with in case you need it later.",
+     "Prompt": "Do you think this information was helpful?",
+     "Choices": [
+          "Yes",
+          "No"
+     ]
+}
